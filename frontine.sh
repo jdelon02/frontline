@@ -1,8 +1,9 @@
 #!/bin/bash
 
-
+##############
+# This script is my answer to the code challenge I was given.  
 # Convert the string:
-THESTRING="(id,created,employee(id,firstname,employeeType(id), lastname),location)"
+# "(id,created,employee(id,firstname,employeeType(id), lastname),location)"
 # to the following output
 #
 # id
@@ -25,7 +26,10 @@ THESTRING="(id,created,employee(id,firstname,employeeType(id), lastname),locatio
 # - lastname
 # id
 # location
+##############
 
+
+THESTRING="(id,created,employee(id,firstname,employeeType(id), lastname),location)"
 
 # Step 1:  Let's split the string into space delimited pieces.
 #
