@@ -17,9 +17,9 @@ chmod +x <filename> within the repository directory.
 
 Then, to run the file, depending on your system, either type:
 
-./<filename> or 
+./filename or 
 
-sh <filename> to exectute the file.
+sh filename to exectute the file.
 
 # Owner #
 
